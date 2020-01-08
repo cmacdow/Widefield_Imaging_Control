@@ -101,7 +101,6 @@ def multi_cam_capture(
         else:
             print("\nERROR!\nCould not connect to cameras!\nEnding Recording")
             break  # exit frames not retrieved  
-        
 
     # Release everything if job is finished   
     for camera in cameras:
